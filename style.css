@@ -18,3 +18,16 @@ button {
     border-radius: 5px;
     cursor: pointer;
 }
+input[type="checkbox"],
+input[type="radio"] {
+    margin: 10px;
+}
+label {
+    margin-right: 10px;
+}
+input[type="checkbox"]:checked + label {
+    color: green;
+}
+input[type="radio"]:checked + label {
+    color: blue;
+}
